@@ -47,7 +47,7 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "null",
     "secondaryTokenAttribute": "null",
-    "url": "https://your/hosted/system/repo/",
-    "manifest": "https://your/hosted/system/repo/system.json",
-    "download": "https://your/packaged/download/archive.zip"
+    "url": "https://github.com/KodMacro/Nordhem",
+    "manifest": "https://github.com/KodMacro/Nordhem/blob/main/system.json",
+    "download": "https://github.com/KodMacro/Nordhem/archive/0.1.zip"
 }

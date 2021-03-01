@@ -1,0 +1,53 @@
+{
+    "name": "nordhem",
+    "title": "Nordhem",
+    "description": "A system for Nordhem, based on Rolemaster.",
+    "version": "0.1",
+    "templateVersion": 1,
+    "author": "Macro",
+    "scripts": [
+      "scripts/placeholder.js",
+      "scripts/placeholder2.js"
+    ],
+    "esmodules": [
+      "scripts/system-module-1.mjs"
+    ],
+    "styles": [
+      "styles/system-styles-1.css",
+      "styles/system-styles-2.css"
+    ],
+    "packs": [
+      {
+        "name": "monsters",
+        "label": "Monsters",
+        "system": "nordhem",
+        "module": "nordhem",
+        "path": "packs/monsters.db",
+        "entity": "Actor"
+      },
+      {
+        "name": "items",
+        "label": "Items",
+        "system": "nordhem",
+        "module": "nordhem",
+        "path": "packs/items.db",
+        "entity": "Item"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 2,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "null",
+    "secondaryTokenAttribute": "null",
+    "url": "https://your/hosted/system/repo/",
+    "manifest": "https://your/hosted/system/repo/system.json",
+    "download": "https://your/packaged/download/archive.zip"
+}

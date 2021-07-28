@@ -2,7 +2,7 @@
     "name": "nordhem",
     "title": "Nordhem",
     "description": "A system for Nordhem, based on Rolemaster.",
-    "version": "0.1",
+    "version": "0.2",
     "templateVersion": 1,
     "author": "Macro",
     "scripts": [

@@ -49,5 +49,5 @@
     "secondaryTokenAttribute": "null",
     "url": "https://github.com/KodMacro/Nordhem",
     "manifest": "https://raw.githubusercontent.com/KodMacro/Nordhem/main/system.json",
-    "download": "https://github.com/KodMacro/Nordhem/archive/v0.1-test.zip"
+    "download": "https://raw.githubusercontent.com/KodMacro/Nordhem/main/0.2.zip"
 }

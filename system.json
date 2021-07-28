@@ -10,7 +10,7 @@
       "scripts/placeholder2.js"
     ],
     "esmodules": [
-      "scripts/system-module-1.mjs"
+      "scripts/nordhem.js"
     ],
     "styles": [
       "styles/system-styles-1.css",

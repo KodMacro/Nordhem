@@ -48,6 +48,6 @@
     "primaryTokenAttribute": "null",
     "secondaryTokenAttribute": "null",
     "url": "https://github.com/KodMacro/Nordhem",
-    "manifest": "https://github.com/KodMacro/Nordhem/blob/main/system.json",
-    "download": "https://github.com/KodMacro/Nordhem/archive/0.1.zip"
+    "manifest": "https://raw.githubusercontent.com/KodMacro/Nordhem/main/system.json",
+    "download": "https://github.com/KodMacro/Nordhem/archive/v0.1-test.zip"
 }

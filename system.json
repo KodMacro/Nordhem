@@ -2,7 +2,7 @@
     "name": "nordhem",
     "title": "Nordhem",
     "description": "A system for Nordhem, based on Rolemaster.",
-    "version": "0.2",
+    "version": "0.3",
     "templateVersion": 1,
     "author": "Macro",
     "scripts": [
@@ -42,6 +42,7 @@
       }
     ],
     "socket": false,
+    "compatibleCoreVersion": "0.8.8",
     "initiative": "1d20",
     "gridDistance": 2,
     "gridUnits": "m",
@@ -49,5 +50,5 @@
     "secondaryTokenAttribute": "null",
     "url": "https://github.com/KodMacro/Nordhem",
     "manifest": "https://raw.githubusercontent.com/KodMacro/Nordhem/main/system.json",
-    "download": "https://github.com/KodMacro/Nordhem/archive/refs/tags/0.2.zip"
+    "download": "https://github.com/KodMacro/Nordhem/archive/refs/tags/0.3.zip"
 }

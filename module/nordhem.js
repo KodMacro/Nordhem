@@ -1,7 +1,7 @@
-import myItemSheet from "./module/sheets/myItemSheet.js";
+import NHItemSheet from "./sheets/item-sheet.js";
 Hooks.once("init", function(){
     console.log("test | Initializing Nordhem");
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("nordhem", myItemSheet, {makeDefault: true});
+    Items.registerSheet("nordhem", NHItemSheet, {makeDefault: true});
 });

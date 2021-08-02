@@ -1,4 +1,4 @@
-import FSItemSheet from "./module/sheets/myItemSheet.js";
+import myItemSheet from "./module/sheets/myItemSheet.js";
 Hooks.once("init", function(){
     console.log("test | Initializing Nordhem");
 

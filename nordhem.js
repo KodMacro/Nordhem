@@ -3,5 +3,5 @@ Hooks.once("init", function(){
     console.log("test | Initializing Nordhem");
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("Nordhem", myItemSheet, {makeDefault: true});
+    Items.registerSheet("nordhem", myItemSheet, {makeDefault: true});
 });

@@ -1,0 +1,29 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{data.img}}" data-edit="img" title="{{data.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{data.name}}" placeholder="Name"/></h1>
+    </header>
+    <div class="resource">
+        <input type="number" name="data.health.value" value="{{systemData.health.value}}"/>
+        <span> / </span>
+        <input type="number" name="data.health.max" value="{{systemData.health.max}}"/>
+    </div>
+    <div class="resource">
+        <input type="number" name="data.power.value" value="{{systemData.power.value}}"/>
+        <span> / </span>
+        <input type="number" name="data.power.max" value="{{systemData.power.max}}"/>
+    </div>
+
+    <div>
+        Constitution: {{systemData.constitution}}</br>
+        Agility: {{systemData.agility}}</br>
+        Self Discipline: {{systemData.selfDiscipline}}
+        Reasoning: {{systemData.reasoning}}</br>
+        Memory: {{systemData.memory}}</br>
+        Strength: {{systemData.strength}}</br>
+        Quickness: {{systemData.quickness}}</br>
+        Presence: {{systemData.presence}}</br>
+        Intuition: {{systemData.intuition}}</br>
+        Empathy:  {{systemData.empathy}}</br>
+    </div>
+</form>

@@ -24,6 +24,48 @@
         "goodness": {
           "value": 5,
           "max": 10
+        },
+        "attributes": {
+          "constitution": {
+            "label": "Constitution",
+            "value": [0]
+          },
+          "agility": {
+            "label": "Agility",
+            "value": [1]
+          },
+          "selfDiscipline": {
+            "label": "Self Discipline",
+            "value": [2]
+          },
+          "reasoning": {
+            "label": "Reasoning",
+            "value": [3]
+          },
+          "memory": {
+            "label": "Memory",
+            "value": [4]
+          },
+          "strength": {
+            "label": "Strength",
+            "value": [5]
+          },
+          "quickness": {
+            "label": "Quickness",
+            "value": [6]
+          },
+          "presence": {
+            "label": "Presence",
+            "value": [7]
+          },
+          "intuition": {
+            "label": "Intuition",
+            "value": [8]
+          },
+          "empathy": {
+            "label": "Empathy",
+            "value": [9]
+          }
         }
       },
       "pawn": {

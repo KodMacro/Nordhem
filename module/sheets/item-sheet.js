@@ -1,4 +1,4 @@
-import { ItemSheetHelper } from "./sheet-helper.js";
+import { SheetHelper } from "./sheet-helper.js";
 
 export default class NHItemSheet extends ItemSheet{
     get template(){
@@ -7,7 +7,7 @@ export default class NHItemSheet extends ItemSheet{
     }
     getData() {
         const context = super.getData();
-        ItemSheetHelper.getAttributeData(context.data);
+        SheetHelper.getAttributeData(context.data);
         context.systemData = context.data.data;
         return context
     }

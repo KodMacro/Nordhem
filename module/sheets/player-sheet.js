@@ -1,13 +1,13 @@
-import { ItemSheetHelper } from "./sheet-helper.js";
+import { SheetHelper } from "./sheet-helper.js";
 
 export default class NHPlayerSheet extends ActorSheet{
     get template(){
-        return `systems/nordhem/templates/sheets/${this.actor.data.type}-sheet.html`;
+        return `systems/nordhem/templates/sheets/player-sheet.html`;
 
     }
     getData() {
         const context = super.getData();
-        ItemSheetHelper.getAttributeData(context.data);
+        SheetHelper.getAttributeData(context.data);
         context.systemData = context.data.data;
         return context
     }

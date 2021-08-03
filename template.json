@@ -28,43 +28,53 @@
         "attributes": {
           "constitution": {
             "label": "Constitution",
-            "value": [0]
+            "temporary": 0,
+            "potential": 100
           },
           "agility": {
             "label": "Agility",
-            "value": [1]
+            "temporary": 1,
+            "potential": 100
           },
           "selfDiscipline": {
             "label": "Self Discipline",
-            "value": [2]
+            "temporary": 2,
+            "potential": 100
           },
           "reasoning": {
             "label": "Reasoning",
-            "value": [3]
+            "temporary": 3,
+            "potential": 100
           },
           "memory": {
             "label": "Memory",
-            "value": [4]
+            "temporary": 4,
+            "potential": 104
           },
           "strength": {
             "label": "Strength",
-            "value": [5]
+            "temporary": 5,
+            "potential": 100
           },
           "quickness": {
             "label": "Quickness",
-            "value": [6]
+            "temporary": 6,
+            "potential": 100
           },
           "presence": {
             "label": "Presence",
-            "value": [7]
+            "temporary": 7,
+            "potential": 100
           },
           "intuition": {
             "label": "Intuition",
-            "value": [8]
+            "temporary": 8,
+            "potential": 100
           },
           "empathy": {
             "label": "Empathy",
-            "value": [9]
+            "temporary": 9,
+            "potential": 100
           }
         }
       },
